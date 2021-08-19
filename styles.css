@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+body {
+  /* position: relative; */
+  background-color: #393b44;
+  text-align: center;
+}
+h1 {
+  color: #fff;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 2.5rem;
+  margin: 13% auto 10%;
+}
+.reloadGame {
+  position: absolute;
+  top: 3%;
+  left: 13px;
+  height: 70px;
+  width: 170px;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: large;
+}
+.rule {
+  position: absolute;
+  left: 80%;
+  top: 3%;
+  font-size: 13px;
+  font-family: "Press Start 2P", sans-serif;
+  color: #fff;
+}
+.hiddenNum {
+  margin: auto auto 8%;
+  width: 140px;
+  height: 100px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Press Start 2P", sans-serif;
+  padding: 2% 3%;
+  display: block;
+}
+.left {
+  position: absolute;
+  margin: auto 12% auto 12%;
+}
+.inputNum {
+  height: 80px;
+  width: 190px;
+  margin: 10%;
+  background-color: #393b44;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #fff;
+  font-size: 2.5rem;
+  font-family: "Press Start 2P", sans-serif;
+  color: #fff;
+}
+.checkBtn {
+  height: 60px;
+  width: 160px;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: large;
+}
+.right {
+  position: absolute;
+  margin: auto 5% auto 5%;
+  left: 50%;
+  text-align: left;
+}
+p {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: large;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #ccc;
+}
